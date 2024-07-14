@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------- hero section styles---------------------------- */
+
+
+
+.hero_container{
+    /* border: 2px solid red; */
+    max-width: 1920px;
+    height: 850px;
+    background-color: hsla(347,73%,61%,0.1);
+}
+    
+
+.hero_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.hero_writings_section{
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 100%;
+}
+
+.hero_writings_section h2{
+color: rgb(39, 39, 39);
+font-size: 80px;
+font-weight: 800;
+line-height: 96px;
+letter-spacing: 0%;
+text-align: left;
+margin: 197px 0px 32px 0px;
+}
+
+.hero_writings_section p{
+    color: hsla(0,0%,15%,0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left; 
+    margin: 0px 0px 32px 0px;
+
+}
+
+.hero_writings_section button {
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 43px 20px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px 147px 0px;
+    cursor: pointer;
+}
+
+
+.hero_img_section{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+}
+
+.hero_img_section img{
+width: 635px;
+height: 800px;
+margin: 50px 240px 0px 97px;
+padding: 0%;
+}
+
+
+/* --------------------------feature_flower_styles------------------------------- */
+
+.feature_flower_container{
+/* border: 2px solid red; */
+max-width: 1920px;
+height: 1091px;
+
+}
+
+.feature_flower_content{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    height: 928px;
+    margin: 0 auto;
+}
+
+.writing_section{
+    /* border: 2px solid magenta; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.writing_section h2{
+color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+margin-top: 178px;
+margin-bottom: 14px;
+}
+
+.writing_section p{
+color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 0px;
+margin-bottom: 48px;
+}
+
+
+.img_section{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.img_section .flower_img1{
+    /* border: 2px solid yellow; */
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+
+}
+
+.img_section .flower_img2{
+    /* border: 2px solid yellow; */
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: hsla(183,93%,33%,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.img_section .flower_img3{
+    /* border: 2px solid yellow; */
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: hsla(90,76%,27%,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.img_section .flower_img1 img, .img_section .flower_img2 img, .img_section .flower_img3 img{
+    width: 310px;
+    height: 428px;
+    margin: 110px 78px 0px 76;
+    padding: 0%;
+}
+
+.img_link{
+    display: flex;
+    gap: 307px;
+    justify-content: space-ar;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    margin-top: 32px;
+
+}
+
+.img_link a{
+color: rgb(39, 39, 39);
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+/* text-align: center; */
+text-decoration-line: underline;
+/* border: 2px solid rgb(255, 0, 0); */
+margin-top: 32px;
+cursor: pointer;
+}
+
+
+
+/* -----------------------------delivery section styles----------------------------------- */
+
+.delivery_container{
+    max-width: 1920px;
+    height: 448px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.delivery_content{
+    width: 1440px;
+    height: 320px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+    
+}
+
+.content{
+    /* border: 2px solid rgb(38, 0, 255); */
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* --------------------- Hot Deal Styles------------------------- */
+
+.hotdeal_container{
+    max-width: 1920px;
+    height: 620px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: rgba(229, 84, 115, 0.05);
+    
+}
+
+.hotdeal_content{
+    width: 1440px;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hotdeal_content .content{
+    /* border: 2px solid rgb(55, 0, 255); */
+}
+
+.hotdeal_content .content h2{
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+color: hsla(0,0%,15%,1);
+}
+
+.hotdeal_content .content span{
+    color: hsla(347,73%,61%,1);
+}
+
+.hotdeal_content .content p{
+color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hotdeal_content .content button{
+border-radius: 8px;
+background: rgb(229, 84, 115);
+width: 155px;
+height: 64px;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+border: none;
+}
+
+
+
+/* ------------------------------------Instagram Section Styles---------------------------------- */
+
+
+.instagram_container{
+    max-width: 1920px;
+    height: 832px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.instagram_content{
+    width: 1440px;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+.instagram_content_writings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.instagram_content_writings h2{
+color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+margin-top: 128px;
+margin-bottom: 24px;
+}
+
+.instagram_content_writings p{
+color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 48px;
+}
+
+.instagram_content_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+
+/* -------------------------------------Email Subscription Section------------------------------------ */
+
+
+.email_container{
+    max-width: 1920px;
+    height: 577px;
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.email_content{
+    width: 1440px;
+    height: 100%;
+    background-image: url("../flower-shop-assignment/Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_writings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.email_content .content_writings h2{
+color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+margin: 0 auto;
+border: 2px solid rgb(68, 0, 255);
+
+}
+
+.email_content .content_writings p{
+color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.content_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
