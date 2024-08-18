@@ -31,7 +31,7 @@
 <body class="max-w-screen-xl mx-auto px-16 lg:pd-28">
 
     <!-- --------------------header Section------------- -->
-    <header class="flex pt-10 mb-20">
+    <header class="lg:flex pt-10 mb-20">
         <div class="header-left">
             <h1 class="font-bold text-5xl md:text-7xl mb-3">It's good <br> 
             tea time at The <br>
@@ -43,9 +43,9 @@
 
         <div class="header-right">
             <!-- Image -->
-            <div class="w-full relative"><img src="./images/banner.png" alt="banner"></div>
+            <div class="w-full relative"><img class="mx-auto" src="./images/banner.png" alt="banner"></div>
             <!-- card -->
-            <div class="absolute bg-white shadow-md flex justify-center items-center p-3 top-64 rounded-lg">
+            <div class="absolute bg-white shadow-md flex justify-center items-center p-3 lg:top-64 rounded-lg md:40 top:20">
                 <div><i class="fa-solid fa-star text-2xl text-[#ffdc64]"></i></div>
                 <div class="pl-3"><h2 class="font-bold text-xl">5.00</h2>
                     <p class="text-[#777777] text-base">Trust Pilot Ratings</p>
@@ -60,28 +60,38 @@
             <!-- Title  -->
             <div class="flex text-center flex-col">
                 <h2 class="text-5xl font-bold mb-5">Our Featured Products</h2>
-                <p class="mb-10 text-base text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some <br>form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p class="mb-10 text-3/4 md:text-base text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some <br>form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
             <!-- Product Cards -->
-            <div class="grid grid-cols-4 gap-6">
-                <div class="rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 m-auto text-center overflow-hidden"><img src="./images/tea-1.png" alt="Milk Tea"><h2 class="text-2xl font-bold">Milk Tea</h2><p class="text-base text-[#777777]">Creamer could be <br>replaced by fresh milk</p></div>
-                <div class="rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 m-auto text-center overflow-hidden"><img src="./images/tea-2.png" alt="Milk Tea"><h2 class="text-2xl font-bold">Black Tea</h2><p class="text-base text-[#777777]">Creamer could be <br>replaced by fresh milk</p></div>
-                <div class="rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 m-auto text-center overflow-hidden"><img src="./images/tea-3.png" alt="Milk Tea"><h2 class="text-2xl font-bold">Lemon Tea</h2><p class="text-base text-[#777777]">Creamer could be <br>replaced by fresh milk</p></div>
-                <div class="rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 m-auto text-center overflow-hidden"><img src="./images/tea-4.png" alt="Milk Tea"><h2 class="text-2xl font-bold">Green Tea</h2><p class="text-base text-[#777777]">Creamer could be <br>replaced by fresh milk</p></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 m-auto text-center overflow-hidden"><img class="mx-auto" src="./images/tea-1.png" alt="Milk Tea"><h2 class="text-2xl font-bold">Milk Tea</h2><p class="text-base text-[#777777]">Creamer could be <br>replaced by fresh milk</p></div>
+                <div class="rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 m-auto text-center overflow-hidden"><img class="mx-auto" src="./images/tea-2.png" alt="Milk Tea"><h2 class="text-2xl font-bold">Black Tea</h2><p class="text-base text-[#777777]">Creamer could be <br>replaced by fresh milk</p></div>
+                <div class="rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 m-auto text-center overflow-hidden"><img class="mx-auto" src="./images/tea-3.png" alt="Milk Tea"><h2 class="text-2xl font-bold">Lemon Tea</h2><p class="text-base text-[#777777]">Creamer could be <br>replaced by fresh milk</p></div>
+                <div class="rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 m-auto text-center overflow-hidden"><img class="mx-auto" src="./images/tea-4.png" alt="Milk Tea"><h2 class="text-2xl font-bold">Green Tea</h2><p class="text-base text-[#777777]">Creamer could be <br>replaced by fresh milk</p></div>
             </div>
         </section>
 
         <!------------------- Great Tea Section ------------ -->
-        <section class="m-10">
+        <section class="grid grid-cols-1 lg:grid-cols-2 m-10 gap-10">
             <!-- Image Grid  -->
-            <div></div>
+            <div class="grid grid-cols-2 grid-rows-3 gap-5">
+                <div class="h-32 bg-gradient-to-r from-[#ffe6e5] to-[#ffffff] rounded-xl"></div>
+                <div class="bg-gradient-to-r from-[#ffe6e5] to-[#ffffff] row-span-2 rounded-xl"><img class="mx-auto w-full" src="./images/fresh-1.png" alt="fresh"></div>
+                <div class="bg-stone-100 row-span-2 rounded-xl"><img class="mx-auto" src="./images/fresh-2.png" alt="fresh"></div>
+                <div class="h-32 bg-stone-100 rounded-xl"></div>
+            </div>
             <!-- Title and Writings -->
             <div>
-                <div><h2>Great Tea, Freshly Presented</h2><p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p></div>
-                <div><h5>Unique Taste</h5><p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p></div>
-                <div><h5>Premium Quality</h5>
-                <p>Premium Quality that makes tea more elegant and more durable when you use it.</p></div>
+                <div><h2 class="text-5xl font-bold mb-5">Great Tea, Freshly Presented</h2><p class="mb-10 text-base text-[#777777]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p></div>
+                <div><h5 class="text-xl font-bold">Unique Taste</h5><p class="mb-10 text-base text-[#777777]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p></div>
+                <div><h5 class="text-xl font-bold">Premium Quality</h5>
+                <p class="mb-10 text-base text-[#777777]">Premium Quality that makes tea more elegant and more durable when you use it.</p></div>
             </div>
+        </section>
+
+        <!-------------------- Meet Our Client Section ----------------- -->
+        <section class="m-10">
+
         </section>
     </main>
 </body>
